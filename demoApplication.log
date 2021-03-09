@@ -1,0 +1,715 @@
+[main] INFO  org.equilibrium.Main  - Connecting to broker: tcp://localhost:1883
+[main] INFO  org.equilibrium.Main  - Connected
+[main] INFO  org.equilibrium.Main  - Subscribed to topic: message/normalizer
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - TOPIC: message/normalizer
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - MESSAGE: {
+  "msg": "Hello, Message!"
+}
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - TOPIC: message/normalizer
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - MESSAGE: { "value": true }
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - TOPIC: message/normalizer
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - MESSAGE: {
+  "msg": "Hello, Message!"
+}
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - TOPIC: message/normalizer
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - MESSAGE: {
+  "msg": "Hello, Message!"
+}
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - TOPIC: message/normalizer
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - MESSAGE: { "value": true }
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - TOPIC: message/normalizer
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - MESSAGE: { "value": true }
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - TOPIC: message/normalizer
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - MESSAGE: {
+  "msg": "Hello, Message!"
+}
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - TOPIC: message/normalizer
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - MESSAGE: {
+  "msg": "Hello, Message!"
+}
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - TOPIC: message/normalizer
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - MESSAGE: { "value": true }
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - TOPIC: message/normalizer
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - MESSAGE: { "value": true }
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - TOPIC: message/normalizer
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - MESSAGE: {
+  "msg": "Hello, Message!"
+}
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - TOPIC: message/normalizer
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - MESSAGE: {
+  "msg": "Hello, Message!"
+}
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - TOPIC: message/normalizer
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - MESSAGE: { "value": true }
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - TOPIC: message/normalizer
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - MESSAGE: { "value": true }
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - TOPIC: message/normalizer
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - MESSAGE: {
+  "msg": "Hello, Message!"
+}
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - TOPIC: message/normalizer
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - MESSAGE: {
+  "msg": "Hello, Message!"
+}
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - TOPIC: message/normalizer
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - MESSAGE: { "value": true }
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - TOPIC: message/normalizer
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - MESSAGE: { "value": true }
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - TOPIC: message/normalizer
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - MESSAGE: {
+  "msg": "Hello, Message!"
+}
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - TOPIC: message/normalizer
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - MESSAGE: {
+  "msg": "Hello, Message!"
+}
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - TOPIC: message/normalizer
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - MESSAGE: { "value": true }
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - TOPIC: message/normalizer
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - MESSAGE: { "value": true }
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - TOPIC: message/normalizer
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - MESSAGE: {
+  "msg": "Hello, Message!"
+}
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - TOPIC: message/normalizer
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - MESSAGE: {
+  "msg": "Hello, Message!"
+}
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - TOPIC: message/normalizer
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - MESSAGE: { "value": true }
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - TOPIC: message/normalizer
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - MESSAGE: { "value": true }
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - TOPIC: message/normalizer
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - MESSAGE: {
+  "msg": "Hello, Message!"
+}
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - TOPIC: message/normalizer
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - MESSAGE: {
+  "msg": "Hello, Message!"
+}
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - TOPIC: message/normalizer
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - MESSAGE: {
+  "msg": "Hello, Message!"
+}
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - TOPIC: message/normalizer
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - MESSAGE: {
+  "msg": "Hello, Message!"
+}
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - TOPIC: message/normalizer
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - MESSAGE: { "value": true }
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - TOPIC: message/normalizer
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - MESSAGE: { "value": true }
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - TOPIC: message/normalizer
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - MESSAGE: {
+  "msg": "Hello, Message!"
+}
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - TOPIC: message/normalizer
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - MESSAGE: {
+  "msg": "Hello, Message!"
+}
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - TOPIC: message/normalizer
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - MESSAGE: {
+  "msg": "Hello, Message!"
+}
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - TOPIC: message/normalizer
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - MESSAGE: {
+  "msg": "Hello, Message!"
+}
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - TOPIC: message/normalizer
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - MESSAGE: {
+  "msg": "Hello, Message!"
+}
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - TOPIC: message/normalizer
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - MESSAGE: {
+  "msg": "Hello, Message!"
+}
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - TOPIC: message/normalizer
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - MESSAGE: {
+  "msg": "Hello, Message!"
+}
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - TOPIC: message/normalizer
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - MESSAGE: {
+  "msg": "Hello, Message!"
+}
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - TOPIC: message/normalizer
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - MESSAGE: {
+  "msg": "Hello, Message!"
+}
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - TOPIC: message/normalizer
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - MESSAGE: {
+  "msg": "Hello, Message!"
+}
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - TOPIC: message/normalizer
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - MESSAGE: {
+  "msg": "Hello, Message!"
+}
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - TOPIC: message/normalizer
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - MESSAGE: {
+  "msg": "Hello, Message!"
+}
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - TOPIC: message/normalizer
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - MESSAGE: {
+  "msg": "Hello, Message!"
+}
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - TOPIC: message/normalizer
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - MESSAGE: {
+  "msg": "Hello, Message!"
+}
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - TOPIC: message/normalizer
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - MESSAGE: {
+  "msg": "Hello, Message!"
+}
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - TOPIC: message/normalizer
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - MESSAGE: {
+  "msg": "Hello, Message!"
+}
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - TOPIC: message/normalizer
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - MESSAGE: {
+  "msg": "Hello, Message!"
+}
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - TOPIC: message/normalizer
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - MESSAGE: {
+  "msg": "Hello, Message!"
+}
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - TOPIC: message/normalizer
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - MESSAGE: {
+  "msg": "Hello, Message!"
+}
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - TOPIC: message/normalizer
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - MESSAGE: {
+  "msg": "Hello, Message!"
+}
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - TOPIC: message/normalizer
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - MESSAGE: {
+  "msg": "Hello, Message!"
+}
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - TOPIC: message/normalizer
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - MESSAGE: {
+  "msg": "Hello, Message!"
+}
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - TOPIC: message/normalizer
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - MESSAGE: {
+  "msg": "Hello, Message!"
+}
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - TOPIC: message/normalizer
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - MESSAGE: {
+  "msg": "Hello, Message!"
+}
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - TOPIC: message/normalizer
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - MESSAGE: {
+  "msg": "Hello, Message!"
+}
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - TOPIC: message/normalizer
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - MESSAGE: {
+  "msg": "Hello, Message!"
+}
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - TOPIC: message/normalizer
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - MESSAGE: {
+  "msg": "Hello, Message!"
+}
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - TOPIC: message/normalizer
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - MESSAGE: {
+  "msg": "Hello, Message!"
+}
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - TOPIC: message/normalizer
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - MESSAGE: {
+  "msg": "Hello, Message!"
+}
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - TOPIC: message/normalizer
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - MESSAGE: {
+  "msg": "Hello, Message!"
+}
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - TOPIC: message/normalizer
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - MESSAGE: {
+  "msg": "Hello, Message!"
+}
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - TOPIC: message/normalizer
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - MESSAGE: {
+  "msg": "Hello, Message!"
+}
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - TOPIC: message/normalizer
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - MESSAGE: {
+  "msg": "Hello, Message!"
+}
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - TOPIC: message/normalizer
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - MESSAGE: {
+  "msg": "Hello, Message!"
+}
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - TOPIC: message/normalizer
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - MESSAGE: {
+  "msg": "Hello, Message!"
+}
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - TOPIC: message/normalizer
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - MESSAGE: {
+  "msg": "Hello, Message!"
+}
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - TOPIC: message/normalizer
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - MESSAGE: {
+  "msg": "Hello, Message!"
+}
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - TOPIC: message/normalizer
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - MESSAGE: {
+  "msg": "Hello, Message!"
+}
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - TOPIC: message/normalizer
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - MESSAGE: {
+  "msg": "Hello, Message!"
+}
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - TOPIC: message/normalizer
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - MESSAGE: {
+  "msg": "Hello, Message!"
+}
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - TOPIC: message/normalizer
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - MESSAGE: {
+  "msg": "Hello, Message!"
+}
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - TOPIC: message/normalizer
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - MESSAGE: {
+  "msg": "Hello, Message!"
+}
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - TOPIC: message/normalizer
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - MESSAGE: {
+  "msg": "Hello, Message!"
+}
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - TOPIC: message/normalizer
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - MESSAGE: {
+  "msg": "Hello, Message!"
+}
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - TOPIC: message/normalizer
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - MESSAGE: {
+  "msg": "Hello, Message!"
+}
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - TOPIC: message/normalizer
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - MESSAGE: {
+  "msg": "Hello, Message!"
+}
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - TOPIC: message/normalizer
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - MESSAGE: {
+  "msg": "Hello, Message!"
+}
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - TOPIC: message/normalizer
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - MESSAGE: {
+  "msg": "Hello, Message!"
+}
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - TOPIC: message/normalizer
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - MESSAGE: {
+  "msg": "Hello, Message!"
+}
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - TOPIC: message/normalizer
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - MESSAGE: {
+  "msg": "Hello, Message!"
+}
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - TOPIC: message/normalizer
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - MESSAGE: {
+  "msg": "Hello, Message!"
+}
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - TOPIC: message/normalizer
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - MESSAGE: {
+  "msg": "Hello, Message!"
+}
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - TOPIC: message/normalizer
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - MESSAGE: {
+  "msg": "Hello, Message!"
+}
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - TOPIC: message/normalizer
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - MESSAGE: {
+  "msg": "Hello, Message!"
+}
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - TOPIC: message/normalizer
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - MESSAGE: {
+  "msg": "Hello, Message!"
+}
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - TOPIC: message/normalizer
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - MESSAGE: {
+  "msg": "Hello, Message!"
+}
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - TOPIC: message/normalizer
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - MESSAGE: {
+  "msg": "Hello, Message!"
+}
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - TOPIC: message/normalizer
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - MESSAGE: {
+  "msg": "Hello, Message!"
+}
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - TOPIC: message/normalizer
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - MESSAGE: {
+  "msg": "Hello, Message!"
+}
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - TOPIC: message/normalizer
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - MESSAGE: {
+  "msg": "Hello, Message!"
+}
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - TOPIC: message/normalizer
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - MESSAGE: {
+  "msg": "Hello, Message!"
+}
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - TOPIC: message/normalizer
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - MESSAGE: {
+  "msg": "Hello, Message!"
+}
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - TOPIC: message/normalizer
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - MESSAGE: {
+  "msg": "Hello, Message!"
+}
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - TOPIC: message/normalizer
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - MESSAGE: {
+  "msg": "Hello, Message!"
+}
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - TOPIC: message/normalizer
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - MESSAGE: {
+  "msg": "Hello, Message!"
+}
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - TOPIC: message/normalizer
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - MESSAGE: {
+  "msg": "Hello, Message!"
+}
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - TOPIC: message/normalizer
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - MESSAGE: {
+  "msg": "Hello, Message!"
+}
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - TOPIC: message/normalizer
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - MESSAGE: {
+  "msg": "Hello, Message!"
+}
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - TOPIC: message/normalizer
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - MESSAGE: {
+  "msg": "Hello, Message!"
+}
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - TOPIC: message/normalizer
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - MESSAGE: {
+  "msg": "Hello, Message!"
+}
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - TOPIC: message/normalizer
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - MESSAGE: {
+  "msg": "Hello, Message!"
+}
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - TOPIC: message/normalizer
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - MESSAGE: {
+  "msg": "Hello, Message!"
+}
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - TOPIC: message/normalizer
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - MESSAGE: {
+  "msg": "Hello, Message!"
+}
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - TOPIC: message/normalizer
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - MESSAGE: {
+  "msg": "Hello, Message!"
+}
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - TOPIC: message/normalizer
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - MESSAGE: {
+  "msg": "Hello, Message!"
+}
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - TOPIC: message/normalizer
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - MESSAGE: {
+  "msg": "Hello, Message!"
+}
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - TOPIC: message/normalizer
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - MESSAGE: {
+  "msg": "Hello, Message!"
+}
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - TOPIC: message/normalizer
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - MESSAGE: {
+  "msg": "Hello, Message!"
+}
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - TOPIC: message/normalizer
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - MESSAGE: {
+  "msg": "Hello, Message!"
+}
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - TOPIC: message/normalizer
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - MESSAGE: {
+  "msg": "Hello, Message!"
+}
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - TOPIC: message/normalizer
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - MESSAGE: {
+  "msg": "Hello, Message!"
+}
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - TOPIC: message/normalizer
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - MESSAGE: {
+  "msg": "Hello, Message!"
+}
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - TOPIC: message/normalizer
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - MESSAGE: {
+  "msg": "Hello, Message!"
+}
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - TOPIC: message/normalizer
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - MESSAGE: {
+  "msg": "Hello, Message!"
+}
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - TOPIC: message/normalizer
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - MESSAGE: {
+  "msg": "Hello, Message!"
+}
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - TOPIC: message/normalizer
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - MESSAGE: {
+  "msg": "Hello, Message!"
+}
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - TOPIC: message/normalizer
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - MESSAGE: {
+  "msg": "Hello, Message!"
+}
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - TOPIC: message/normalizer
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - MESSAGE: {
+  "msg": "Hello, Message!"
+}
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - TOPIC: message/normalizer
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - MESSAGE: {
+  "msg": "Hello, Message!"
+}
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - TOPIC: message/normalizer
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - MESSAGE: {
+  "msg": "Hello, Message!"
+}
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - TOPIC: message/normalizer
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - MESSAGE: {
+  "msg": "Hello, Message!"
+}
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - TOPIC: message/normalizer
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - MESSAGE: {
+  "msg": "Hello, Message!"
+}
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - TOPIC: message/normalizer
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - MESSAGE: {
+  "msg": "Hello, Message!"
+}
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - TOPIC: message/normalizer
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - MESSAGE: {
+  "msg": "Hello, Message!"
+}
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - TOPIC: message/normalizer
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - MESSAGE: {
+  "msg": "Hello, Message!"
+}
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - TOPIC: message/normalizer
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - MESSAGE: {
+  "msg": "Hello, Message!"
+}
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - TOPIC: message/normalizer
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - MESSAGE: {
+  "msg": "Hello, Message!"
+}
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - TOPIC: message/normalizer
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - MESSAGE: {
+  "msg": "Hello, Message!"
+}
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - TOPIC: message/normalizer
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - MESSAGE: {
+  "msg": "Hello, Message!"
+}
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - TOPIC: message/normalizer
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - MESSAGE: {
+  "msg": "Hello, Message!"
+}
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - TOPIC: message/normalizer
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - MESSAGE: {
+  "msg": "Hello, Message!"
+}
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - TOPIC: message/normalizer
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - MESSAGE: {
+  "msg": "Hello, Message!"
+}
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - TOPIC: message/normalizer
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - MESSAGE: {
+  "msg": "Hello, Message!"
+}
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - TOPIC: message/normalizer
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - MESSAGE: {
+  "msg": "Hello, Message!"
+}
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - TOPIC: message/normalizer
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - MESSAGE: {
+  "msg": "Hello, Message!"
+}
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - TOPIC: message/normalizer
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - MESSAGE: {
+  "msg": "Hello, Message!"
+}
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - TOPIC: message/normalizer
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - MESSAGE: {
+  "msg": "Hello, Message!"
+}
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - TOPIC: message/normalizer
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - MESSAGE: {
+  "msg": "Hello, Message!"
+}
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - TOPIC: message/normalizer
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - MESSAGE: {
+  "msg": "Hello, Message!"
+}
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - TOPIC: message/normalizer
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - MESSAGE: {
+  "msg": "Hello, Message!"
+}
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - TOPIC: message/normalizer
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - MESSAGE: {
+  "msg": "Hello, Message!"
+}
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - TOPIC: message/normalizer
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - MESSAGE: {
+  "msg": "Hello, Message!"
+}
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - TOPIC: message/normalizer
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - MESSAGE: {
+  "msg": "Hello, Message!"
+}
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - TOPIC: message/normalizer
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - MESSAGE: {
+  "msg": "Hello, Message!"
+}
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - TOPIC: message/normalizer
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - MESSAGE: { "value": true }
+[main] INFO  org.equilibrium.Main  - Connecting to broker: tcp://localhost:1883
+[main] INFO  org.equilibrium.Main  - Connected
+[main] INFO  org.equilibrium.Main  - Subscribed to topic: message/normalizer
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - TOPIC: message/normalizer
+[MQTT Call: emqx_subscribe_test] INFO  org.equilibrium.Main  - MESSAGE: { "value": true }
+[main] DEBUG org.eclipse.aether.internal.impl.DefaultLocalRepositoryProvider  - Using manager EnhancedLocalRepositoryManager with priority 10.0 for C:\Users\Andrei\.m2\repository
+[main] DEBUG org.eclipse.aether.internal.impl.collect.DefaultDependencyCollector  - Dependency collection stats: {ConflictMarker.analyzeTime=1677900, ConflictMarker.markTime=692601, ConflictMarker.nodeCount=479, ConflictIdSorter.graphTime=853999, ConflictIdSorter.topsortTime=391500, ConflictIdSorter.conflictIdCount=156, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=10919100, ConflictResolver.conflictItemCount=356, DefaultDependencyCollector.collectTime=489867200, DefaultDependencyCollector.transformTime=15711200}
+[main] DEBUG org.eclipse.aether.internal.impl.collect.DefaultDependencyCollector  - Dependency collection stats: {ConflictMarker.analyzeTime=6851201, ConflictMarker.markTime=3961600, ConflictMarker.nodeCount=8968, ConflictIdSorter.graphTime=1942800, ConflictIdSorter.topsortTime=108400, ConflictIdSorter.conflictIdCount=142, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=6708400, ConflictResolver.conflictItemCount=341, DefaultDependencyCollector.collectTime=218502199, DefaultDependencyCollector.transformTime=19628201}
+[main] DEBUG org.eclipse.aether.internal.impl.collect.DefaultDependencyCollector  - Dependency collection stats: {ConflictMarker.analyzeTime=173501, ConflictMarker.markTime=113699, ConflictMarker.nodeCount=345, ConflictIdSorter.graphTime=76200, ConflictIdSorter.topsortTime=46100, ConflictIdSorter.conflictIdCount=87, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=1606500, ConflictResolver.conflictItemCount=184, DefaultDependencyCollector.collectTime=3425900, DefaultDependencyCollector.transformTime=2051200}
+[main] DEBUG org.eclipse.aether.internal.impl.collect.DefaultDependencyCollector  - Dependency collection stats: {ConflictMarker.analyzeTime=142100, ConflictMarker.markTime=92100, ConflictMarker.nodeCount=300, ConflictIdSorter.graphTime=57499, ConflictIdSorter.topsortTime=43101, ConflictIdSorter.conflictIdCount=84, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=1862500, ConflictResolver.conflictItemCount=180, DefaultDependencyCollector.collectTime=6240300, DefaultDependencyCollector.transformTime=2215300}
+[Thread-20] DEBUG io.netty.util.internal.logging.InternalLoggerFactory  - Using SLF4J as the default logging framework
+[Thread-20] DEBUG io.netty.util.internal.PlatformDependent  - Platform: Windows
+[Thread-20] DEBUG io.netty.util.internal.PlatformDependent0  - -Dio.netty.noUnsafe: false
+[Thread-20] DEBUG io.netty.util.internal.PlatformDependent0  - Java version: 15
+[Thread-20] DEBUG io.netty.util.internal.PlatformDependent0  - sun.misc.Unsafe.theUnsafe: available
+[Thread-20] DEBUG io.netty.util.internal.PlatformDependent0  - sun.misc.Unsafe.copyMemory: available
+[Thread-20] DEBUG io.netty.util.internal.PlatformDependent0  - java.nio.Buffer.address: available
+[Thread-20] DEBUG io.netty.util.internal.PlatformDependent0  - direct buffer constructor: unavailable
+java.lang.UnsupportedOperationException: Reflective setAccessible(true) disabled
+	at io.netty.util.internal.ReflectionUtil.trySetAccessible(ReflectionUtil.java:31)
+	at io.netty.util.internal.PlatformDependent0$4.run(PlatformDependent0.java:233)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:312)
+	at io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:227)
+	at io.netty.util.internal.PlatformDependent.isAndroid(PlatformDependent.java:289)
+	at io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:92)
+	at io.netty.channel.DefaultChannelId.defaultProcessId(DefaultChannelId.java:112)
+	at io.netty.channel.DefaultChannelId.<clinit>(DefaultChannelId.java:77)
+	at io.quarkus.netty.runtime.NettyRecorder$1.run(NettyRecorder.java:28)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+[Thread-20] DEBUG io.netty.util.internal.PlatformDependent0  - java.nio.Bits.unaligned: available, true
+[Thread-20] DEBUG io.netty.util.internal.PlatformDependent0  - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable
+java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent0$6 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @86f9995
+	at java.base/jdk.internal.reflect.Reflection.newIllegalAccessException(Reflection.java:385)
+	at java.base/java.lang.reflect.AccessibleObject.checkAccess(AccessibleObject.java:693)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:556)
+	at io.netty.util.internal.PlatformDependent0$6.run(PlatformDependent0.java:347)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:312)
+	at io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:338)
+	at io.netty.util.internal.PlatformDependent.isAndroid(PlatformDependent.java:289)
+	at io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:92)
+	at io.netty.channel.DefaultChannelId.defaultProcessId(DefaultChannelId.java:112)
+	at io.netty.channel.DefaultChannelId.<clinit>(DefaultChannelId.java:77)
+	at io.quarkus.netty.runtime.NettyRecorder$1.run(NettyRecorder.java:28)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+[Thread-20] DEBUG io.netty.util.internal.PlatformDependent0  - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+[Thread-20] DEBUG io.netty.util.internal.PlatformDependent  - sun.misc.Unsafe: available
+[Thread-20] DEBUG io.netty.util.internal.PlatformDependent  - maxDirectMemory: 4280287232 bytes (maybe)
+[Thread-20] DEBUG io.netty.util.internal.PlatformDependent  - -Dio.netty.tmpdir: C:\Users\Andrei\AppData\Local\Temp (java.io.tmpdir)
+[Thread-20] DEBUG io.netty.util.internal.PlatformDependent  - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+[Thread-20] DEBUG io.netty.util.internal.PlatformDependent  - -Dio.netty.maxDirectMemory: -1 bytes
+[Thread-20] DEBUG io.netty.util.internal.PlatformDependent  - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+[Thread-20] DEBUG io.netty.util.internal.CleanerJava9  - java.nio.ByteBuffer.cleaner(): available
+[Thread-20] DEBUG io.netty.util.internal.PlatformDependent  - -Dio.netty.noPreferDirect: false
+[Thread-20] DEBUG io.netty.channel.DefaultChannelId  - -Dio.netty.processId: 16720 (auto-detected)
+[Thread-20] DEBUG io.netty.channel.DefaultChannelId  - -Dio.netty.machineId: a2:cb:1c:35:55:de:16:09 (user-set)
+[main] DEBUG io.netty.util.ResourceLeakDetector  - -Dio.netty.leakDetection.level: simple
+[main] DEBUG io.netty.util.ResourceLeakDetector  - -Dio.netty.leakDetection.targetRecords: 4
+[main] DEBUG io.netty.util.internal.InternalThreadLocalMap  - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+[main] DEBUG io.netty.util.internal.InternalThreadLocalMap  - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+[main] DEBUG io.netty.channel.MultithreadEventLoopGroup  - -Dio.netty.eventLoopThreads: 24
+[main] DEBUG io.netty.channel.nio.NioEventLoop  - -Dio.netty.noKeySetOptimization: false
+[main] DEBUG io.netty.channel.nio.NioEventLoop  - -Dio.netty.selectorAutoRebuildThreshold: 512
+[main] DEBUG io.netty.util.internal.PlatformDependent  - org.jctools-core.MpscChunkedArrayQueue: available
+[vert.x-eventloop-thread-3] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.numHeapArenas: 24
+[vert.x-eventloop-thread-3] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.numDirectArenas: 24
+[vert.x-eventloop-thread-3] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.pageSize: 8192
+[vert.x-eventloop-thread-3] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.maxOrder: 1
+[vert.x-eventloop-thread-3] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.chunkSize: 16384
+[vert.x-eventloop-thread-3] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.tinyCacheSize: 512
+[vert.x-eventloop-thread-3] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.smallCacheSize: 256
+[vert.x-eventloop-thread-3] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.normalCacheSize: 64
+[vert.x-eventloop-thread-3] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+[vert.x-eventloop-thread-3] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.cacheTrimInterval: 8192
+[vert.x-eventloop-thread-3] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+[vert.x-eventloop-thread-3] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.useCacheForAllThreads: true
+[vert.x-eventloop-thread-3] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+[vert.x-eventloop-thread-3] DEBUG io.netty.buffer.ByteBufUtil  - -Dio.netty.allocator.type: pooled
+[vert.x-eventloop-thread-3] DEBUG io.netty.buffer.ByteBufUtil  - -Dio.netty.threadLocalDirectBufferSize: 0
+[vert.x-eventloop-thread-3] DEBUG io.netty.buffer.ByteBufUtil  - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+[vert.x-eventloop-thread-3] DEBUG io.netty.util.NetUtil  - -Djava.net.preferIPv4Stack: false
+[vert.x-eventloop-thread-3] DEBUG io.netty.util.NetUtil  - -Djava.net.preferIPv6Addresses: false
+[vert.x-eventloop-thread-3] DEBUG io.netty.util.NetUtil  - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+[vert.x-eventloop-thread-3] DEBUG io.netty.util.NetUtil  - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+[Thread-19] DEBUG io.netty.util.internal.logging.InternalLoggerFactory  - Using SLF4J as the default logging framework
+[Thread-19] DEBUG io.netty.util.internal.PlatformDependent  - Platform: Windows
+[Thread-19] DEBUG io.netty.util.internal.PlatformDependent0  - -Dio.netty.noUnsafe: false
+[Thread-19] DEBUG io.netty.util.internal.PlatformDependent0  - Java version: 15
+[Thread-19] DEBUG io.netty.util.internal.PlatformDependent0  - sun.misc.Unsafe.theUnsafe: available
+[Thread-19] DEBUG io.netty.util.internal.PlatformDependent0  - sun.misc.Unsafe.copyMemory: available
+[Thread-19] DEBUG io.netty.util.internal.PlatformDependent0  - java.nio.Buffer.address: available
+[Thread-19] DEBUG io.netty.util.internal.PlatformDependent0  - direct buffer constructor: unavailable
+java.lang.UnsupportedOperationException: Reflective setAccessible(true) disabled
+	at io.netty.util.internal.ReflectionUtil.trySetAccessible(ReflectionUtil.java:31)
+	at io.netty.util.internal.PlatformDependent0$4.run(PlatformDependent0.java:233)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:312)
+	at io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:227)
+	at io.netty.util.internal.PlatformDependent.isAndroid(PlatformDependent.java:289)
+	at io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:92)
+	at io.netty.channel.DefaultChannelId.defaultProcessId(DefaultChannelId.java:112)
+	at io.netty.channel.DefaultChannelId.<clinit>(DefaultChannelId.java:77)
+	at io.quarkus.netty.runtime.NettyRecorder$1.run(NettyRecorder.java:28)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+[Thread-19] DEBUG io.netty.util.internal.PlatformDependent0  - java.nio.Bits.unaligned: available, true
+[Thread-19] DEBUG io.netty.util.internal.PlatformDependent0  - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable
+java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent0$6 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @4647df96
+	at java.base/jdk.internal.reflect.Reflection.newIllegalAccessException(Reflection.java:385)
+	at java.base/java.lang.reflect.AccessibleObject.checkAccess(AccessibleObject.java:693)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:556)
+	at io.netty.util.internal.PlatformDependent0$6.run(PlatformDependent0.java:347)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:312)
+	at io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:338)
+	at io.netty.util.internal.PlatformDependent.isAndroid(PlatformDependent.java:289)
+	at io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:92)
+	at io.netty.channel.DefaultChannelId.defaultProcessId(DefaultChannelId.java:112)
+	at io.netty.channel.DefaultChannelId.<clinit>(DefaultChannelId.java:77)
+	at io.quarkus.netty.runtime.NettyRecorder$1.run(NettyRecorder.java:28)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+[Thread-19] DEBUG io.netty.util.internal.PlatformDependent0  - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+[Thread-19] DEBUG io.netty.util.internal.PlatformDependent  - sun.misc.Unsafe: available
+[Thread-19] DEBUG io.netty.util.internal.PlatformDependent  - maxDirectMemory: 4280287232 bytes (maybe)
+[Thread-19] DEBUG io.netty.util.internal.PlatformDependent  - -Dio.netty.tmpdir: C:\Users\Andrei\AppData\Local\Temp (java.io.tmpdir)
+[Thread-19] DEBUG io.netty.util.internal.PlatformDependent  - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+[Thread-19] DEBUG io.netty.util.internal.PlatformDependent  - -Dio.netty.maxDirectMemory: -1 bytes
+[Thread-19] DEBUG io.netty.util.internal.PlatformDependent  - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+[Thread-19] DEBUG io.netty.util.internal.CleanerJava9  - java.nio.ByteBuffer.cleaner(): available
+[Thread-19] DEBUG io.netty.util.internal.PlatformDependent  - -Dio.netty.noPreferDirect: false
+[Thread-19] DEBUG io.netty.channel.DefaultChannelId  - -Dio.netty.processId: 4056 (auto-detected)
+[Thread-19] DEBUG io.netty.channel.DefaultChannelId  - -Dio.netty.machineId: ad:76:2e:2d:81:90:75:b0 (user-set)
+[main] DEBUG io.netty.util.ResourceLeakDetector  - -Dio.netty.leakDetection.level: simple
+[main] DEBUG io.netty.util.ResourceLeakDetector  - -Dio.netty.leakDetection.targetRecords: 4
+[main] DEBUG io.netty.util.internal.InternalThreadLocalMap  - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+[main] DEBUG io.netty.util.internal.InternalThreadLocalMap  - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+[main] DEBUG io.netty.channel.MultithreadEventLoopGroup  - -Dio.netty.eventLoopThreads: 24
+[main] DEBUG io.netty.channel.nio.NioEventLoop  - -Dio.netty.noKeySetOptimization: false
+[main] DEBUG io.netty.channel.nio.NioEventLoop  - -Dio.netty.selectorAutoRebuildThreshold: 512
+[main] DEBUG io.netty.util.internal.PlatformDependent  - org.jctools-core.MpscChunkedArrayQueue: available
+[vert.x-eventloop-thread-16] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.numHeapArenas: 24
+[vert.x-eventloop-thread-16] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.numDirectArenas: 24
+[vert.x-eventloop-thread-16] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.pageSize: 8192
+[vert.x-eventloop-thread-16] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.maxOrder: 1
+[vert.x-eventloop-thread-16] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.chunkSize: 16384
+[vert.x-eventloop-thread-16] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.tinyCacheSize: 512
+[vert.x-eventloop-thread-16] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.smallCacheSize: 256
+[vert.x-eventloop-thread-16] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.normalCacheSize: 64
+[vert.x-eventloop-thread-16] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+[vert.x-eventloop-thread-16] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.cacheTrimInterval: 8192
+[vert.x-eventloop-thread-16] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+[vert.x-eventloop-thread-16] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.useCacheForAllThreads: true
+[vert.x-eventloop-thread-16] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+[vert.x-eventloop-thread-16] DEBUG io.netty.buffer.ByteBufUtil  - -Dio.netty.allocator.type: pooled
+[vert.x-eventloop-thread-16] DEBUG io.netty.buffer.ByteBufUtil  - -Dio.netty.threadLocalDirectBufferSize: 0
+[vert.x-eventloop-thread-16] DEBUG io.netty.buffer.ByteBufUtil  - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+[vert.x-eventloop-thread-16] DEBUG io.netty.util.NetUtil  - -Djava.net.preferIPv4Stack: false
+[vert.x-eventloop-thread-16] DEBUG io.netty.util.NetUtil  - -Djava.net.preferIPv6Addresses: false
+[vert.x-eventloop-thread-16] DEBUG io.netty.util.NetUtil  - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+[vert.x-eventloop-thread-16] DEBUG io.netty.util.NetUtil  - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
