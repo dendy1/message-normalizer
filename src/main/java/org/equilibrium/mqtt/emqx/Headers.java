@@ -1,6 +1,5 @@
-package org.equilibrium.mqtt.response;
+package org.equilibrium.mqtt.emqx;
 
-import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
 import java.util.Map;

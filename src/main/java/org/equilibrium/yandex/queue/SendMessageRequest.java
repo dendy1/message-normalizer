@@ -1,19 +1,26 @@
 package org.equilibrium.yandex.queue;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
+
 public class SendMessageRequest {
 
-    private String queueUrl;
+    @JsonProperty("queue_name")
+    private String queueName;
+
+    @JsonProperty("message_body")
     private String messageBody;
 
-    //private Integer delaySeconds;
-    //private Array messageAttributes;
-
-    public String getQueueUrl() {
-        return queueUrl;
+    public SendMessageRequest(String queueName, String messageBody) {
+        this.queueName = queueName;
+        this.messageBody = messageBody;
     }
 
-    public void setQueueUrl(String queueUrl) {
-        this.queueUrl = queueUrl;
+    public String getQueueName() {
+        return queueName;
+    }
+
+    public void setQueueName(String queueName) {
+        this.queueName = queueName;
     }
 
     public String getMessageBody() {

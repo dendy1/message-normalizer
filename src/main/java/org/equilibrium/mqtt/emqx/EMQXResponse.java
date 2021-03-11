@@ -1,15 +1,11 @@
-package org.equilibrium.mqtt.response;
+package org.equilibrium.mqtt.emqx;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonSetter;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.core.type.TypeReference;
-import com.fasterxml.jackson.databind.JsonMappingException;
-import com.fasterxml.jackson.databind.ObjectMapper;
 import org.equilibrium.mqtt.MqttResource;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -51,6 +47,15 @@ public class EMQXResponse {
 
     public Map<String, String> getPayload() {
         return payload;
+    }
+
+    public String getPayLoadString() {
+        try {
+            return MqttResource.objectMapper.writerWithDefaultPrettyPrinter().writeValueAsString(payload);
+        } catch (JsonProcessingException e) {
+            MqttResource.logger.error("", e);
+        }
+        return null;
     }
 
     @JsonSetter("payload")
@@ -176,5 +181,26 @@ public class EMQXResponse {
 
     public void setClientId(String clientId) {
         this.clientId = clientId;
+    }
+
+    @Override
+    public String toString() {
+        return "EMQXResponse{" +
+                "username='" + username + '\'' +
+                ", topic='" + topic + '\'' +
+                ", timestamp=" + timestamp +
+                ", qos=" + qos +
+                ", publishReceivedAt=" + publishReceivedAt +
+                ", publishProps=" + publishProps +
+                ", peerhost='" + peerhost + '\'' +
+                ", payload=" + payload +
+                ", node='" + node + '\'' +
+                ", metadata=" + metadata +
+                ", id='" + id + '\'' +
+                ", headers=" + headers +
+                ", flags=" + flags +
+                ", event='" + event + '\'' +
+                ", clientId='" + clientId + '\'' +
+                '}';
     }
 }
