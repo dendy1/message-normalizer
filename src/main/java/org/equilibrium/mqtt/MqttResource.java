@@ -1,6 +1,9 @@
 package org.equilibrium.mqtt;
 
+import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import org.equilibrium.YandexMessagePayload;
+import org.equilibrium.configuration.ConfigurationStorage;
 import org.equilibrium.mqtt.emqx.EMQXResponse;
 import org.equilibrium.yandex.YandexQueue;
 import org.equilibrium.yandex.queue.SendMessageRequest;
@@ -28,11 +31,26 @@ public class MqttResource {
 
     @POST
     public Response sendMessage(EMQXResponse message) {
-        logger.info(message.getPayLoadString());
-        yandexQueue.sendMessage(new SendMessageRequest(
-                "queue-test",
-                message.getPayLoadString()
-        ));
+        logger.info("Resending EMQX message to Yandex Message Queue");
+        try {
+            YandexMessagePayload payload = new YandexMessagePayload(
+                    "user-id-uuid",
+                    "project-id-uuid",
+                    message.getTopic(),
+                    message.getPayLoadString(),
+                    System.currentTimeMillis()
+            );
+
+
+            yandexQueue.sendMessage(new SendMessageRequest(
+                    ConfigurationStorage.getInternalTopic(message.getTopic()),
+                    objectMapper.writeValueAsString(payload)
+            ));
+        } catch (JsonProcessingException e) {
+            logger.error("", e);
+            return Response.serverError().entity("Unable to parse json").build();
+        }
+
         return Response.status(200).build();
     }
 }

@@ -51,7 +51,7 @@ public class EMQXResponse {
 
     public String getPayLoadString() {
         try {
-            return MqttResource.objectMapper.writerWithDefaultPrettyPrinter().writeValueAsString(payload);
+            return MqttResource.objectMapper.writeValueAsString(payload);
         } catch (JsonProcessingException e) {
             MqttResource.logger.error("", e);
         }

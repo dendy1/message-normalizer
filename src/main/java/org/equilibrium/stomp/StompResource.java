@@ -1,6 +1,9 @@
 package org.equilibrium.stomp;
 
+import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import org.equilibrium.YandexMessagePayload;
+import org.equilibrium.configuration.ConfigurationStorage;
 import org.equilibrium.yandex.YandexQueue;
 import org.equilibrium.yandex.queue.SendMessageRequest;
 import org.slf4j.Logger;
@@ -27,6 +30,25 @@ public class StompResource {
 
     @POST
     public Response sendMessage(StompFrame frame) {
+
+        try {
+            YandexMessagePayload payload = new YandexMessagePayload(
+                    "user-id-uuid",
+                    "project-id-uuid",
+                    frame.getDestination(),
+                    frame.getBody(),
+                    System.currentTimeMillis()
+            );
+
+            yandexQueue.sendMessage(new SendMessageRequest(
+                    ConfigurationStorage.getInternalTopic(frame.getDestination()),
+                    objectMapper.writeValueAsString(payload)
+            ));
+        } catch (JsonProcessingException e) {
+            logger.error("", e);
+            return Response.serverError().entity("Unable to parse json").build();
+        }
+
         yandexQueue.sendMessage(new SendMessageRequest(
                 "queue-test",
                 frame.getBody()

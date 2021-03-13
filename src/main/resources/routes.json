@@ -1,0 +1,6 @@
+{
+  "routes": {
+    "/topic/mqtt": "topic-mqtt-internal",
+    "/topic/stomp": "topic-stomp-internal"
+  }
+}
