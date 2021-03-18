@@ -1,4 +1,4 @@
-package org.equilibrium.api.yandex.data;
+package org.equilibrium.api.yandex.data.message;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 

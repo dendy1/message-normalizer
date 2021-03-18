@@ -29,6 +29,9 @@ public class StompResource {
     @Inject
     YandexQueue yandexQueue;
 
+    @Inject
+    ConfigurationStorage configurationStorage;
+
     @POST
     public Response sendMessage(StompFrame frame) {
 
@@ -42,7 +45,7 @@ public class StompResource {
             );
 
             yandexQueue.sendMessage(new SendMessageRequest(
-                    ConfigurationStorage.getInternalTopic(frame.getDestination()),
+                    configurationStorage.getInternalTopic(frame.getDestination()).replace('/', '-'),
                     objectMapper.writeValueAsString(payload)
             ));
         } catch (JsonProcessingException e) {
@@ -50,10 +53,7 @@ public class StompResource {
             return Response.serverError().entity("Unable to parse json").build();
         }
 
-        yandexQueue.sendMessage(new SendMessageRequest(
-                "queue-test",
-                frame.getBody()
-        ));
+        logger.info("STOMP Message successfully sent");
         return Response.status(200).build();
     }
 }

@@ -24,10 +24,13 @@ import javax.ws.rs.core.Response;
 public class MqttResource {
 
     public static final ObjectMapper objectMapper = new ObjectMapper();
-    public static Logger logger = LoggerFactory.getLogger(MqttResource.class);
+    public static final Logger logger = LoggerFactory.getLogger(MqttResource.class);
 
     @Inject
     YandexQueue yandexQueue;
+
+    @Inject
+    ConfigurationStorage configurationStorage;
 
     @POST
     public Response sendMessage(EMQXResponse message) {
@@ -41,9 +44,8 @@ public class MqttResource {
                     System.currentTimeMillis()
             );
 
-
             yandexQueue.sendMessage(new SendMessageRequest(
-                    ConfigurationStorage.getInternalTopic(message.getTopic()),
+                    configurationStorage.getInternalTopic(message.getTopic()).replace('/', '-'),
                     objectMapper.writeValueAsString(payload)
             ));
         } catch (JsonProcessingException e) {
@@ -51,6 +53,7 @@ public class MqttResource {
             return Response.serverError().entity("Unable to parse json").build();
         }
 
+        logger.info("MQTT Message successfully sent");
         return Response.status(200).build();
     }
 }

@@ -1,4 +1,4 @@
-package org.equilibrium.api.yandex.data;
+package org.equilibrium.api.yandex.data.message;
 
 public class YandexMessagePayload {
 
