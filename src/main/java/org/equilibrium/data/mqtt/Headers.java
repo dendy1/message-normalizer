@@ -1,4 +1,4 @@
-package org.equilibrium.mqtt.emqx;
+package org.equilibrium.data.mqtt;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 

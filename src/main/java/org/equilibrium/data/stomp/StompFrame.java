@@ -1,4 +1,4 @@
-package org.equilibrium.stomp;
+package org.equilibrium.data.stomp;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 

@@ -1,4 +1,4 @@
-package org.equilibrium.yandex.queue;
+package org.equilibrium.api.yandex.data;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 

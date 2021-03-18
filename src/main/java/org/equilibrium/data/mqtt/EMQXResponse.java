@@ -1,11 +1,11 @@
-package org.equilibrium.mqtt.emqx;
+package org.equilibrium.data.mqtt;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonSetter;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.core.type.TypeReference;
-import org.equilibrium.mqtt.MqttResource;
+import org.equilibrium.resources.MqttResource;
 
 import java.util.HashMap;
 import java.util.Map;

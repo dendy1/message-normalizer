@@ -1,4 +1,4 @@
-package org.equilibrium.yandex.aws;
+package org.equilibrium.api.yandex.aws;
 
 import com.amazonaws.auth.AWSCredentials;
 import com.amazonaws.auth.AWSCredentialsProvider;

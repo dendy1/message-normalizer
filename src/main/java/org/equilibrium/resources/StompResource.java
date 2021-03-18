@@ -1,11 +1,12 @@
-package org.equilibrium.stomp;
+package org.equilibrium.resources;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import org.equilibrium.YandexMessagePayload;
+import org.equilibrium.api.yandex.data.message.YandexMessagePayload;
 import org.equilibrium.configuration.ConfigurationStorage;
-import org.equilibrium.yandex.YandexQueue;
-import org.equilibrium.yandex.queue.SendMessageRequest;
+import org.equilibrium.api.yandex.YandexQueue;
+import org.equilibrium.api.yandex.data.message.SendMessageRequest;
+import org.equilibrium.data.stomp.StompFrame;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
