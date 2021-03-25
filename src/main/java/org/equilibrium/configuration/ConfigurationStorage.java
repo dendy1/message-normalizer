@@ -33,7 +33,7 @@ public class ConfigurationStorage {
     String database;
 
     @ConfigProperty(name = "configuration-storage.routes-table")
-    String routesTable = "routes";
+    String routesTable;
 
     private Connection connection;
     private Connection getConnection() {

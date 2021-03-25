@@ -35,6 +35,7 @@ public class MqttResource {
     @POST
     public Response sendMessage(EMQXResponse message) {
         logger.info("Resending EMQX message to Yandex Message Queue");
+        logger.info("Topic: `{}`", message.toString());
         try {
             YandexMessagePayload payload = new YandexMessagePayload(
                     "user-id-uuid",

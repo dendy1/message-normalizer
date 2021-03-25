@@ -48,6 +48,7 @@ public class StompResource {
                     configurationStorage.getInternalTopic(frame.getDestination()).replace('/', '-'),
                     objectMapper.writeValueAsString(payload)
             ));
+
         } catch (JsonProcessingException e) {
             logger.error("", e);
             return Response.serverError().entity("Unable to parse json").build();
