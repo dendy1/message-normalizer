@@ -1,12 +1,11 @@
 package org.equilibrium.resources;
 
-import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import org.equilibrium.api.yandex.data.message.YandexMessagePayload;
-import org.equilibrium.configuration.ConfigurationStorage;
-import org.equilibrium.data.mqtt.EMQXResponse;
 import org.equilibrium.api.yandex.YandexQueue;
 import org.equilibrium.api.yandex.data.message.SendMessageRequest;
+import org.equilibrium.configuration.ConfigurationStorage;
+import org.equilibrium.data.NormalizedTopic;
+import org.equilibrium.data.mqtt.EMQXResponse;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -35,24 +34,23 @@ public class MqttResource {
     @POST
     public Response sendMessage(EMQXResponse message) {
         logger.info("Resending EMQX message to Yandex Message Queue");
-        logger.info("Topic: `{}`", message.toString());
-        try {
-            YandexMessagePayload payload = new YandexMessagePayload(
-                    "user-id-uuid",
-                    "project-id-uuid",
-                    message.getTopic(),
-                    message.getPayLoadString(),
-                    System.currentTimeMillis()
-            );
+        /*
+        YandexMessagePayload payload = new YandexMessagePayload(
+                "user-id-uuid",
+                "project-id-uuid",
+                message.getTopic(),
+                message.getPayLoadString(),
+                System.currentTimeMillis()
+        );
+         */
 
-            yandexQueue.sendMessage(new SendMessageRequest(
-                    configurationStorage.getInternalTopic(message.getTopic()).replace('/', '-'),
-                    objectMapper.writeValueAsString(payload)
-            ));
-        } catch (JsonProcessingException e) {
-            logger.error("", e);
-            return Response.serverError().entity("Unable to parse json").build();
-        }
+        NormalizedTopic topic = configurationStorage.getInternalTopic(message.getTopic());
+
+        yandexQueue.sendMessage(new SendMessageRequest(
+                topic.getQueueName(),
+                message.getPayLoadString(),
+                topic.getYandexQueueAttributes()
+        ));
 
         logger.info("MQTT Message successfully sent");
         return Response.status(200).build();

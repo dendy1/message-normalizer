@@ -1,13 +1,15 @@
 package org.equilibrium.configuration;
 
+import com.fasterxml.jackson.databind.ObjectMapper;
 import com.rethinkdb.RethinkDB;
 import com.rethinkdb.net.Connection;
 import org.eclipse.microprofile.config.inject.ConfigProperty;
+import org.equilibrium.data.NormalizedTopic;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import javax.enterprise.context.ApplicationScoped;
-import java.util.Map;
+import java.util.HashMap;
 
 @ApplicationScoped
 public class ConfigurationStorage {
@@ -35,16 +37,23 @@ public class ConfigurationStorage {
         return connection;
     }
 
-    public String getInternalTopic(String userTopic) {
+    public NormalizedTopic getInternalTopic(String userTopic) {
         logger.info(userTopic);
 
-        Map<String, String> result = r.db(database).table(routesTable).get(userTopic).run(getConnection());
+        HashMap<String, String> result = r.db(database).table(routesTable).get(userTopic).run(getConnection());
 
         logger.info("{}", result);
 
         if (result == null)
             return null;
 
-        return result.get("route");
+        ObjectMapper om = new  ObjectMapper();
+        try {
+            NormalizedTopic topic = om.convertValue(result, NormalizedTopic.class);
+            return topic;
+        } catch (Exception ex) {
+            return null;
+        }
+
     }
 }

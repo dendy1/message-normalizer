@@ -20,6 +20,7 @@ import org.slf4j.LoggerFactory;
 import javax.enterprise.context.ApplicationScoped;
 import javax.jms.*;
 import javax.ws.rs.core.Response;
+import java.util.Map;
 
 @ApplicationScoped
 public class YandexQueue {
@@ -86,6 +87,10 @@ public class YandexQueue {
 
             MessageProducer producer = session.createProducer(queue);
             Message message = session.createTextMessage(request.getMessageBody());
+            for (Map.Entry<String, String> attribute: request.getAttributes().entrySet()) {
+                message.setStringProperty(attribute.getKey(), attribute.getValue());
+            }
+
             producer.send(message);
 
             logger.info("Message successfully sent to queue");
