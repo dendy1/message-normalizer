@@ -23,7 +23,7 @@ public class ConfigurationStorage {
     @ConfigProperty(name = "configuration-storage.port")
     Integer port;
 
-    @ConfigProperty(name = "configuration-storage.users-data-database")
+    @ConfigProperty(name = "configuration-storage.database")
     String database;
 
     @ConfigProperty(name = "configuration-storage.routes-table")
