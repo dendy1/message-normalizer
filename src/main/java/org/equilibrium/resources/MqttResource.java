@@ -34,15 +34,6 @@ public class MqttResource {
     @POST
     public Response sendMessage(EMQXResponse message) {
         logger.info("Resending EMQX message to Yandex Message Queue");
-        /*
-        YandexMessagePayload payload = new YandexMessagePayload(
-                "user-id-uuid",
-                "project-id-uuid",
-                message.getTopic(),
-                message.getPayLoadString(),
-                System.currentTimeMillis()
-        );
-         */
 
         NormalizedTopic topic = configurationStorage.getInternalTopic(message.getTopic());
 

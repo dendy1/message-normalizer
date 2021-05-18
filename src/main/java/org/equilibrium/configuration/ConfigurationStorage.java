@@ -17,16 +17,16 @@ public class ConfigurationStorage {
     private static final Logger logger = LoggerFactory.getLogger(ConfigurationStorage.class);
     public static final RethinkDB r = RethinkDB.r;
 
-    @ConfigProperty(name = "configuration-storage.hostname")
+    @ConfigProperty(name = "rethinkdb.hostname")
     String hostname;
 
-    @ConfigProperty(name = "configuration-storage.port")
+    @ConfigProperty(name = "rethinkdb.port")
     Integer port;
 
-    @ConfigProperty(name = "configuration-storage.database")
+    @ConfigProperty(name = "rethinkdb.database")
     String database;
 
-    @ConfigProperty(name = "configuration-storage.routes-table")
+    @ConfigProperty(name = "rethinkdb.routes-table")
     String routesTable;
 
     private Connection connection;
